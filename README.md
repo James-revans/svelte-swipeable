@@ -7,7 +7,7 @@ Lightweight library to handle swipe gestures in Svelte
 #### Usage
 
 ```javascript
-import { swipe } from 'svelte-swipeable'
+import swipe from 'svelte-swipeable'
 ```
 
 ```html
