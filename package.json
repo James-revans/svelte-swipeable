@@ -1,0 +1,19 @@
+{
+  "name": "svelte-swipeable",
+  "version": "1.0.0",
+  "description": "Svelte swipe gesture handler",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-revans/svelte-swipeable.git"
+  },
+  "author": "James Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-revans/svelte-swipeable/issues"
+  },
+  "homepage": "https://github.com/James-revans/svelte-swipeable#readme"
+}
