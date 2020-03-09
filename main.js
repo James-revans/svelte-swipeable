@@ -1,4 +1,4 @@
-export function swipe(node, options={dX: 0, dY: 0}) {
+export default function swipe(node, options={dX: 0, dY: 0}) {
 	let x;
 	let y;
 	let initial = {
