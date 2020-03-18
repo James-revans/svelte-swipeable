@@ -1,3 +1,6 @@
+import Animations from './Animations.svelte';
+export { Animations };
+
 export default function swipe(node, options = { threshX: 0, threshY: 0 }) {
    let x;
    let y;
