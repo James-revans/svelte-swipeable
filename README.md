@@ -12,7 +12,6 @@ Lightweight library to handle swipe gestures in Svelte
 
 ```javascript
 import { Animate } from 'svelte-swipeable';
-
 ```
 ```html
  <Animate 
@@ -49,6 +48,7 @@ import { Animate } from 'svelte-swipeable';
 | y         | Coordinate of new Y                           |
 | initial   | Object containing initial x and y coordinates |
 | direction | Object containing x direction and y direction |
+
 
 ```javascript
 // Assuming a swipe up of 200px
