@@ -1,5 +1,5 @@
-import Animations from './Animations.svelte';
-export { Animations };
+import Animate from './Animate.svelte';
+export { Animate };
 
 export default function swipe(node, options = { threshX: 0, threshY: 0 }) {
    let x;
