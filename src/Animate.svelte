@@ -8,10 +8,13 @@
     export let willReturn = true;
     export let momentum = 0;
     export let options;
-    export let onSwipeUp;
-    export let onSwipeDown;
-    export let onSwipeRight;
-    export let onSwipeLeft;
+    export let swipeUp;
+    export let swipeDown;
+    export let swipeRight;
+    export let swipeLeft;
+    export let swipeStart;
+    export let swipeMove;
+    export let swipeEnd;
 
     // Local state
     let previousCoords = {
@@ -85,13 +88,13 @@
 
 <div class="container"
     use:swipe={options}
-    on:swipeStart={handleSwipeStart}
-    on:swipeMove={handleSwipeMove}
-    on:swipeEnd={handleSwipeEnd}
-    on:swipeUp={onSwipeUp}
-    on:swipeDown={onSwipeDown}
-    on:swipeRight={onSwipeRight}
-    on:swipeLeft={onSwipeLeft}
+    on:swipeStart={swipeStart}
+    on:swipeMove={swipeMove}
+    on:swipeEnd={swipeEnd}
+    on:swipeUp={swipeUp}
+    on:swipeDown={swipeDown}
+    on:swipeRight={swipeRight}
+    on:swipeLeft={swipeLeft}
     style="{movement}"
 >
     <slot></slot>
