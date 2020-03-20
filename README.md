@@ -21,7 +21,7 @@ import { Animate } from 'svelte-swipeable';
      willReturn=true 
      momentum=0.2
      options={options}
-     swipeUp={myFunction}>
+     swipeUp={hanldeSwipe}>
 
      <div>Content</div>
     
