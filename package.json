@@ -1,6 +1,6 @@
 {
    "name": "svelte-swipeable",
-   "version": "1.0.6",
+   "version": "1.0.7",
    "description": "Svelte swipe gesture handler",
    "main": "public/bundle.js",
    "repository": {
@@ -38,5 +38,12 @@
       "dev": "run-p start:dev autobuild",
       "start": "sirv public --single",
       "start:dev": "sirv public --single --dev"
-   }
+   },
+   "keywords": [
+      "svelte",
+      "swipe",
+      "swipeable",
+      "animation",
+      "touch"
+   ]
 }
